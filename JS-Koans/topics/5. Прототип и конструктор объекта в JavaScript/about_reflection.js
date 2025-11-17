@@ -44,6 +44,6 @@ describe("About Reflection (about_reflection.js)", function() {
     // Какое имя у конструктора a?
     expect("A").toBe(a.constructor.name);
     // Какое имя у конструктора b?
-    expect("B").toBe(b.constructor.name);
+    expect("A").toBe(b.constructor.name);
   });
 });
